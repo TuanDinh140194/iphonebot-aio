@@ -1,0 +1,36 @@
+{
+  "telegram": {
+    "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "chat_id": "YOUR_TELEGRAM_CHAT_ID"
+  },
+  "zipcode": "97220",
+  "models": [],
+  "stores": [
+    "R077",
+    "R090",
+    "R134"
+  ],
+  "poll_interval_seconds": [
+    55,
+    65
+  ],
+  "http_proxy": null,
+  "checkout_assistant": {
+    "enabled": true,
+    "auto_launch_on_stock": true,
+    "auto_add_to_bag": true,
+    "auto_checkout": true,
+    "fill_checkout": true,
+    "fill_payment": true,
+    "stop_before_place_order": true,
+    "headless": false,
+    "browser_mode": "cdp",
+    "cdp_url": "http://127.0.0.1:9222",
+    "fresh_session_per_run": false,
+    "browser_profile_dir": null,
+    "auto_start_cdp_chrome": true,
+    "chrome_executable": null,
+    "chrome_user_data_dir": null,
+    "chrome_start_timeout_seconds": 20
+  }
+}

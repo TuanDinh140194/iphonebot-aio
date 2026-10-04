@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Secrets / local config
+config.json
+.env
+.env.*
+!.env.example
+
+# Local databases
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Sensitive captures
+*.har
+
+# Logs / temp
+*.log
+logs/
+tmp/
+temp/
+
+# Frontend
+frontend/node_modules/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Chrome bot local profile
+chrome-profile/
+user-data-dir/

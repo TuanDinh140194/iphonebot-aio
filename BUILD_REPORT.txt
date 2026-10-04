@@ -1,0 +1,17 @@
+iPhoneBot v10.3.18 AIO build report
+
+Changes:
+- Faster Billing/payment form detection and autofill start.
+- Reduced payment/billing selector and settle delays.
+- CVV blur/commit before Billing Continue readiness check.
+- Robust exact #checkout-billing-continue wait, scroll and click.
+- One safe Billing validation retry.
+- Live #checkout-review-continue detection retained as detection-only.
+- Stops before Place Your Order.
+
+Validation:
+- Python compileall: PASS
+- Frontend JS syntax: PASS
+- SQLite integrity_check: ok
+- HAR Billing -> Review control mapping: PASS
+- Final purchase hard guard retained: PASS
